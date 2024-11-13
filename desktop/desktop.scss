@@ -253,7 +253,7 @@ $split-values: str-split($values, "|");
   }
 
   .small-action {
-    background-color: var(--primary-very-low);
+    // background-color: var(--primary-very-low);
     margin-bottom: 10px;
     font-size: 0.75em;
     height: 35px;
@@ -289,7 +289,7 @@ $split-values: str-split($values, "|");
 
   .topic-body,
   .topic-avatar {
-    background-color: var(--primary-very-low);
+    // background-color: var(--primary-very-low);
   }
 
   .cooked {
@@ -337,7 +337,7 @@ $split-values: str-split($values, "|");
     }
 
     blockquote {
-      background: var(--primary-very-low);
+      // background: var(--primary-very-low);
       color: var(--primary-high);
       border-left: 10px solid var(--primary-low-mid);
       padding: 0.5em 10px;
