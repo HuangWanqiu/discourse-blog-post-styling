@@ -112,8 +112,11 @@ $split-values: str-split($values, "|");
   }
 
   .container.posts {
-    justify-items: end;
-    padding-left: 20px;
+    grid-template-columns: 100%;
+    justify-items: center;
+    padding-left: 0;
+    // justify-items: end;
+    // padding-left: 20px;
     .topic-post {
       .row {
         display: flex;
